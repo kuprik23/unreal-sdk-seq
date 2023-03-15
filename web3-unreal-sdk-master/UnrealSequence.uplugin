@@ -1,0 +1,30 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "UnrealSequence",
+  "Description": "Sequence.js & embeddable Sequence Wallet support for Unreal Engine.",
+  "Category": "Other",
+  "CreatedBy": "Horizon Blockchain Games",
+  "CreatedByURL": "https://sequence.xyz/",
+  "DocsURL": "https://github.com/0xsequence/web3-unreal-sdk/blob/master/README.md",
+  "MarketplaceURL": "",
+  "SupportURL": "https://discord.com/invite/sequence",
+  "CanContainContent": true,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "UnrealSequence",
+      "Type": "Runtime",
+      "LoadingPhase": "PreLoadingScreen"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "WebBrowserWidget",
+      "Enabled": true
+    }
+  ]
+}
